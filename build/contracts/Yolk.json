@@ -1,0 +1,146 @@
+{
+  "abi": [],
+  "allSourcePaths": {
+    "2": "contracts/Yolk.sol"
+  },
+  "ast": {
+    "absolutePath": "contracts/Yolk.sol",
+    "exportedSymbols": {
+      "Yolk": [
+        8
+      ]
+    },
+    "id": 9,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 7,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Yolk",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 8,
+        "linearizedBaseContracts": [
+          8
+        ],
+        "name": "Yolk",
+        "nameLocation": "67:4:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 9,
+        "src": "58:16:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:42:2"
+  },
+  "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220160544aaa58e43006b73f64c68b052a632b117f83a60b4f2b6f9a7bf0302705a64736f6c63430008090033",
+  "bytecodeSha1": "73df0a6f5d0123eb2b2db0faf62b602aa77c123a",
+  "compiler": {
+    "evm_version": "istanbul",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "version": "0.8.9+commit.e5eed63a"
+  },
+  "contractName": "Yolk",
+  "coverageMap": {
+    "branches": {
+      "2": {}
+    },
+    "statements": {
+      "2": {}
+    }
+  },
+  "dependencies": [],
+  "deployedBytecode": "6080604052600080fdfea2646970667358221220160544aaa58e43006b73f64c68b052a632b117f83a60b4f2b6f9a7bf0302705a64736f6c63430008090033",
+  "deployedSourceMap": "58:16:2:-:0;;;;;",
+  "language": "Solidity",
+  "natspec": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "offset": [
+    58,
+    74
+  ],
+  "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 AND SDIV DIFFICULTY 0xAA 0xA5 DUP15 NUMBER STOP PUSH12 0x73F64C68B052A632B117F83A PUSH1 0xB4 CALLCODE 0xB6 0xF9 0xA7 0xBF SUB MUL PUSH17 0x5A64736F6C634300080900330000000000 ",
+  "pcMap": {
+    "0": {
+      "offset": [
+        58,
+        74
+      ],
+      "op": "PUSH1",
+      "path": "2",
+      "value": "0x80"
+    },
+    "2": {
+      "fn": null,
+      "offset": [
+        58,
+        74
+      ],
+      "op": "PUSH1",
+      "path": "2",
+      "value": "0x40"
+    },
+    "4": {
+      "fn": null,
+      "offset": [
+        58,
+        74
+      ],
+      "op": "MSTORE",
+      "path": "2"
+    },
+    "5": {
+      "fn": null,
+      "offset": [
+        58,
+        74
+      ],
+      "op": "PUSH1",
+      "path": "2",
+      "value": "0x0"
+    },
+    "7": {
+      "fn": null,
+      "offset": [
+        58,
+        74
+      ],
+      "op": "DUP1",
+      "path": "2"
+    },
+    "8": {
+      "fn": null,
+      "offset": [
+        58,
+        74
+      ],
+      "op": "REVERT",
+      "path": "2"
+    }
+  },
+  "sha1": "053d0b923cb6a15812ae0c8b857d93b2ac9db3eb",
+  "source": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.0;\n\ncontract Yolk {}\n",
+  "sourceMap": "58:16:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "sourcePath": "contracts/Yolk.sol",
+  "type": "contract"
+}

@@ -1,0 +1,146 @@
+{
+  "abi": [],
+  "allSourcePaths": {
+    "1": "contracts/FrigginKitchen.sol"
+  },
+  "ast": {
+    "absolutePath": "contracts/FrigginKitchen.sol",
+    "exportedSymbols": {
+      "FrigginKitchen": [
+        5
+      ]
+    },
+    "id": 6,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 4,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "FrigginKitchen",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 5,
+        "linearizedBaseContracts": [
+          5
+        ],
+        "name": "FrigginKitchen",
+        "nameLocation": "67:14:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 6,
+        "src": "58:26:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:52:1"
+  },
+  "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212208b89553b1fa7f96f186e367c735330cfe6075eb34bd7f1896ac090cb1042595e64736f6c63430008090033",
+  "bytecodeSha1": "73df0a6f5d0123eb2b2db0faf62b602aa77c123a",
+  "compiler": {
+    "evm_version": "istanbul",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "version": "0.8.9+commit.e5eed63a"
+  },
+  "contractName": "FrigginKitchen",
+  "coverageMap": {
+    "branches": {
+      "1": {}
+    },
+    "statements": {
+      "1": {}
+    }
+  },
+  "dependencies": [],
+  "deployedBytecode": "6080604052600080fdfea26469706673582212208b89553b1fa7f96f186e367c735330cfe6075eb34bd7f1896ac090cb1042595e64736f6c63430008090033",
+  "deployedSourceMap": "58:26:1:-:0;;;;;",
+  "language": "Solidity",
+  "natspec": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "offset": [
+    58,
+    84
+  ],
+  "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP12 DUP10 SSTORE EXTCODESIZE 0x1F 0xA7 0xF9 PUSH16 0x186E367C735330CFE6075EB34BD7F189 PUSH11 0xC090CB1042595E64736F6C PUSH4 0x43000809 STOP CALLER ",
+  "pcMap": {
+    "0": {
+      "offset": [
+        58,
+        84
+      ],
+      "op": "PUSH1",
+      "path": "1",
+      "value": "0x80"
+    },
+    "2": {
+      "fn": null,
+      "offset": [
+        58,
+        84
+      ],
+      "op": "PUSH1",
+      "path": "1",
+      "value": "0x40"
+    },
+    "4": {
+      "fn": null,
+      "offset": [
+        58,
+        84
+      ],
+      "op": "MSTORE",
+      "path": "1"
+    },
+    "5": {
+      "fn": null,
+      "offset": [
+        58,
+        84
+      ],
+      "op": "PUSH1",
+      "path": "1",
+      "value": "0x0"
+    },
+    "7": {
+      "fn": null,
+      "offset": [
+        58,
+        84
+      ],
+      "op": "DUP1",
+      "path": "1"
+    },
+    "8": {
+      "fn": null,
+      "offset": [
+        58,
+        84
+      ],
+      "op": "REVERT",
+      "path": "1"
+    }
+  },
+  "sha1": "e4ee87958c6ec625ab2125f90a3bd2b19370330c",
+  "source": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.0;\n\ncontract FrigginKitchen {}\n",
+  "sourceMap": "58:26:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "sourcePath": "contracts/FrigginKitchen.sol",
+  "type": "contract"
+}
